@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio dos alunos">
+    <title>Portfólio dos Alunos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#inicio" class="logo">Meu Portfólio</a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <p class="tag">PORTFÓLIO ACADÊMICO</p>
+                <h1>Olá, eu sou <span>Seu Nome</span></h1>
+                <p>
+                    Estudante de Informática para Internet, interessado(a) em
+                    tecnologia, programação e desenvolvimento de projetos web.
+                </p>
+                <a href="#projetos" class="btn">Ver meus projetos</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2>Sobre mim</h2>
+                <div class="about-card">
+                    <div class="avatar">SN</div>
+                    <div>
+                        <h3>Quem sou eu?</h3>
+                        <p>
+                            Meu nome é <strong>Seu Nome</strong>. Sou estudante e
+                            estou aprendendo desenvolvimento web, programação e
+                            novas tecnologias. Este portfólio apresenta um pouco
+                            da minha trajetória, minhas habilidades e meus projetos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section section-light">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="cards">
+                    <article class="card">
+                        <div class="icon">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Criação e organização da estrutura de páginas web.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon">#</div>
+                        <h3>CSS</h3>
+                        <p>Estilização, layouts, cores, responsividade e animações.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Interatividade e funcionalidades para sites.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon">VS</div>
+                        <h3>VS Code</h3>
+                        <p>Desenvolvimento e organização dos projetos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="container">
+                <h2>Projetos</h2>
+                <div class="projects">
+                    <article class="project-card">
+                        <div class="project-number">01</div>
+                        <h3>Site de Biblioteca</h3>
+                        <p>
+                            Projeto web para cadastro de usuários e controle
+                            de empréstimos de livros.
+                        </p>
+                        <span>HTML • CSS • JavaScript</span>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">02</div>
+                        <h3>Agendamento de Quadra</h3>
+                        <p>
+                            Sistema para consultar horários e realizar
+                            agendamentos de uma quadra esportiva.
+                        </p>
+                        <span>HTML • CSS • JavaScript</span>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">03</div>
+                        <h3>Projeto Escolar</h3>
+                        <p>
+                            Projeto desenvolvido durante as atividades do curso,
+                            aplicando conceitos de desenvolvimento web.
+                        </p>
+                        <span>HTML • CSS • JavaScript</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="section section-light">
+            <div class="container">
+                <h2>Formação</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span>Atual</span>
+                        <h3>Informática para Internet</h3>
+                        <p>Curso voltado para desenvolvimento de sites, sistemas e tecnologias web.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <span>Em andamento</span>
+                        <h3>Ensino Médio</h3>
+                        <p>Formação escolar e desenvolvimento de conhecimentos gerais e tecnológicos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contatos" class="section contact-section">
+            <div class="container">
+                <h2>Contatos</h2>
+                <p class="contact-intro">Entre em contato comigo através dos canais abaixo.</p>
+
+                <div class="contact-grid">
+                    <a href="mailto:seuemail@email.com" class="contact-card">
+                        <strong>E-mail</strong>
+                        <span>seuemail@email.com</span>
+                    </a>
+
+                    <a href="https://github.com/" target="_blank" rel="noopener" class="contact-card">
+                        <strong>GitHub</strong>
+                        <span>github.com/seuusuario</span>
+                    </a>
+
+                    <a href="#" class="contact-card">
+                        <strong>Instagram</strong>
+                        <span>@seuusuario</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Seu Nome • Portfólio dos Alunos</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
